@@ -1,43 +1,91 @@
-html {
-    font-size: 16px;
-}
+/* .get-ready {
+    color: #000000;
+    font-size: 7rem;
+}*/
 
-body {
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    word-wrap: break-word;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    background-color: #000000;
-    color: #c5cacd;
-    height: 15rem;
-}
-
-h1 {
-    font-size: 4rem;
+.carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    font-weight: 600;
+    color: white; /* Ensure the text is visible */
 }
 
-nav.header {
-    align-items: center;
+.carousel-heading {    
+    text-shadow: 3px 3px 5px rgba(252, 250, 250, 0.5); /* Optional: Add text shadow for better readability */
 }
 
-ul.header {
+.carousel-p {  
+    color: #000000;  
+    text-shadow: 3px 3px 5px rgba(105, 105, 105, 0.5); /* Optional: Add text shadow for better readability */
+    max-width: 100%;
+}
+
+.two-text {    
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #858585; /* Ensure the text is visible */
+}
+
+.carousel-p2 {
+    bottom: 15%;
+    color: #404040;
+}
+
+.carousel-heading2 { 
+    color: #292929;   
+    text-shadow: 3px 3px 5px rgba(252, 250, 250, 0.5); /* Optional: Add text shadow for better readability */
+}
+
+.display-4, .carousel-p2 {
+    color: #525353;  
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); /* Optional: Add text shadow for better readability */
+}
+
+.indicator {
+    color: #c5cacd;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: #000000;
+    opacity: 0.5;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    color: #000000;
+    opacity: 0.9;
+}
+
+.social, .logo {
+    height: 2rem;
+}
+
+#google {
+    margin-right: 0;
+    padding-right: 0;
+    cursor: pointer;
+}
+
+
+
+/*nav.navbar.fixed-bottom.bg-body-tertiary {
     display: flex;
-    list-style-type: none;
-    justify-content: flex-end;
-    margin-right: 2rem;
-}
-
-li.header {
-    padding: 1.5rem 0.5rem;
-}
+}*/
 
 
-
+/* facebook 
+.bi.bi-facebook {
+    box-sizing: border-box;
+    position: absolute;
+    left: -0.01%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: transparent;
+    color: transparent;
+}*/
